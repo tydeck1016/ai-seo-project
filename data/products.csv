@@ -1,0 +1,4 @@
+product_name,model_number,price,page_yield,compatible_models,affiliate_url
+HP 63XL Black Ink,F6U64AN,42.99,480,"HP ENVY 4520; HP DeskJet 2130; HP OfficeJet 4650",https://example.com/hp63xl
+HP 950XL Black Ink,CN045AN,36.99,2000,"HP OfficeJet Pro 8600; HP 8100",https://example.com/hp950xl
+HP 962XL Black Ink,3JA03AN,47.99,2000,"HP OfficeJet Pro 9015; HP 9025",https://example.com/hp962xl
