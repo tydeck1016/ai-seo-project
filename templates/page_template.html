@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>{{ product_name }} – Yield, Cost Per Page, Compatibility & Where to Buy</title>
+  <meta name="description" content="See {{ product_name }} specs: page yield, cost-per-page, compatible printers, and trusted places to buy online. Updated {{ last_updated }}." />
+  {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}"/>{% endif %}
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="product" />
+  <meta property="og:title" content="{{ product_name }} – Yield, CPP & Compatibility" />
+  <meta property="og:description" content="Yield {{ page_yield }} pages • CPP {{ cpp_display }}{% if compatible_models %} • {{ compatible_models|length }} compatible printers{% endif %}." />
+  {% if canonical_url %}<meta property="og:url" content="{{ canonical_url }}"/>{% endif %}
+  {% if site_name %}<meta property="og:site_name" content="{{ site_name }}"/>{% endif %}
+  <meta name="twitter:card" content="summary" />
+  {% if not indexable %}<meta name="robots" content="noindex,follow"/>{% endif %}
+
+  <style>
+    :root{
+      --bg:#0b1020;           /* page bg behind container (subtle dark for depth) */
+      --surface:#0f1428;      /* outer header area */
+      --card:#ffffff;         /* card bg */
+      --ink:#0b1220;          /* text on light cards */
+      --muted:#687089;
+      --b:#e7e8ef;            /* borders on light cards */
+      --accent:#3b82f6;       /* brand accent (blue) */
+      --accent-2:#1d4ed8;
+      --chip:#f2f5ff;
+      --max:1200px; --pad:18px;
+      --radius:16px; --shadow:0 8px 30px rgba(10,20,30,.08);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root{
+        --card:#0f172a;
+        --ink:#e5e7ef;
+        --b:#1f2937;
+        --chip:#111827;
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0}
+    body{
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial;
+      line-height:1.6; background:var(--bg); color:var(--ink);
+    }
+
+    /* Top bar */
+    .topbar{
+      background:linear-gradient(180deg, var(--surface), rgba(15,23,42,.6));
+      color:#fff;
+    }
+    .topbar .wrap{max-width:var(--max); margin:0 auto; padding:14px var(--pad); display:flex; align-items:center; gap:14px; justify-content:space-between}
+    .brand{display:flex; align-items:center; gap:10px; text-decoration:none; color:#fff; font-weight:800}
+    .brand .logo{width:28px;height:28px;border-radius:10px;background:linear-gradient(135deg,#60a5fa,#a78bfa);box-shadow:inset 0 0 0 2px rgba(255,255,255,.2)}
+    .nav a{color:#cbd5e1;text-decoration:none;font-weight:600;margin-left:14px}
+    .nav a:hover{color:#fff}
+
+    /* Hero / title strip */
+    .hero{
+      background: radial-gradient(1200px 400px at 20% -10%, rgba(59,130,246,.35), transparent 60%),
+                  radial-gradient(900px 300px at 90% -20%, rgba(167,139,250,.28), transparent 60%),
+                  linear-gradient(180deg, rgba(15,23,42,.9), rgba(15,23,42,.66));
+      color:#fff;
+      border-bottom:1px solid rgba(255,255,255,.06);
+    }
+    .hero .wrap{max-width:var(--max); margin:0 auto; padding:22px var(--pad) 28px}
+    .breadcrumbs{font-size:13px; color:#94a3b8; margin-bottom:10px}
+    .breadcrumbs a{color:inherit; text-decoration:none}
+    h1{font-size:clamp(24px,4vw,36px); margin:8px 0 6px}
+    .sub{color:#a7b6d9}
+
+    /* Main container */
+    .container{max-width:var(--max); margin:-18px auto 32px; padding:0 var(--pad)}
+    .grid{display:grid; grid-template-columns:1fr; gap:22px}
+    @media(min-width:980px){ .grid{grid-template-columns:1.6fr 1fr} .sticky{position:sticky; top:18px}}
+
+    .card{background:var(--card); border:1px solid var(--b); border-radius:var(--radius); box-shadow:var(--shadow); padding:18px}
+
+    /* Pills / quick facts */
+    .qabox{display:flex; flex-wrap:wrap; gap:10px}
+    .pill{padding:8px 12px; border-radius:999px; background:var(--chip); border:1px solid var(--b); font-weight:700; font-size:14px}
+
+    /* Buttons */
+    .btn{display:inline-block; padding:12px 16px; border-radius:12px; background:var(--accent); color:#fff; text-decoration:none; font-weight:800; border:1px solid var(--accent-2); transition:transform .12s ease, box-shadow .12s ease}
+    .btn:hover{transform:translateY(-1px); box-shadow:0 8px 22px rgba(59,130,246,.25)}
+    .btn.secondary{background:transparent; color:var(--accent); border-color:var(--accent)}
+
+    /* Table */
+    .section h2{font-size:clamp(18px,3vw,22px); margin:2px 0 10px}
+    .table{width:100%; border-collapse:collapse; overflow:hidden; border-radius:12px}
+    .table th,.table td{padding:12px 10px; border-bottom:1px solid var(--b); text-align:left}
+    .table th{color:#64748b; font-weight:700; width:34%}
+    .table tr:last-child th,.table tr:last-child td{border-bottom:none}
+
+    ul.clean{padding-left:18px; margin:8px 0}
+    .chips{display:flex; flex-wrap:wrap; gap:8px}
+    .chip{border:1px solid var(--b); background:var(--chip); padding:6px 10px; border-radius:999px; font-size:14px}
+
+    /* Jump links */
+    .jumplinks{display:flex; flex-wrap:wrap; gap:10px; margin:12px 0 14px}
+    .jumplinks a{font-size:14px; border:1px solid var(--b); padding:8px 12px; border-radius:999px; text-decoration:none; color:var(--ink); background:var(--card)}
+    .jumplinks a:hover{border-color:var(--accent); color:var(--accent)}
+
+    /* Ad slots (CLS-safe) */
+    .ad{border:1px dashed var(--b); border-radius:12px; padding:12px; color:#6b7280; text-align:center; background:var(--card)}
+    .slot-leader{min-height:100px}
+    .slot-rect{min-height:280px}
+    .slot-sidebar{min-height:600px}
+
+    /* Sidebar buy box */
+    .buybox h2{margin:0 0 10px}
+    .disclosure{font-size:12px; color:#64748b; margin-top:8px}
+
+    /* Footer */
+    footer{margin-top:22px; color:#94a3b8; font-size:13px; padding:14px var(--pad) 28px; text-align:center}
+
+    /* Mobile sticky CTA */
+    .m-cta{position:fixed; left:50%; transform:translateX(-50%); bottom:12px; z-index:50; background:var(--card); border:1px solid var(--b); box-shadow:var(--shadow); border-radius:14px; padding:10px 12px; display:flex; gap:10px; align-items:center}
+    .m-cta .price{font-weight:800}
+    @media(min-width:980px){.m-cta{display:none}}
+  </style>
+
+  <!-- JSON-LD Product (unchanged + safe) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Product",
+    "name":"{{ product_name }}",
+    {% if model_number %}"sku":"{{ model_number }}",{% endif %}
+    {% if brand %}"brand":{"@type":"Brand","name":"{{ brand }}"},{% endif %}
+    "description":"Specs and compatibility for {{ product_name }}. Yield {{ page_yield }} pages. Cost per page {{ cpp_display }}.",
+    {% if canonical_url %}"url":"{{ canonical_url }}",{% endif %}
+    {% if price %}"offers":{"@type":"Offer","priceCurrency":"{{ price_currency or 'USD' }}","price":"{{ "%.2f"|format(price|float) }}"{% if affiliate_url %},"url":"{{ affiliate_url }}"{% endif %}},{% endif %}
+    "additionalProperty":[
+      {"@type":"PropertyValue","name":"Page yield","value":"{{ page_yield }}"},
+      {"@type":"PropertyValue","name":"Cost per page","value":"{{ cpp_display }}"}
+    ]
+  }
+  </script>
+
+  {% if faqs and faqs|length > 0 %}
+  <script type="application/ld+json">
+  { "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {% for qa in faqs %}
+      {"@type":"Question","name":"{{ qa.q }}","acceptedAnswer":{"@type":"Answer","text":"{{ qa.a }}"}}{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]}
+  </script>
+  {% endif %}
+
+  {% if breadcrumbs and breadcrumbs|length > 0 %}
+  <script type="application/ld+json">
+  { "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {% for bc in breadcrumbs %}
+      {"@type":"ListItem","position":{{ loop.index }},"name":"{{ bc.name }}","item":"{{ bc.url }}"}{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]}
+  </script>
+  {% endif %}
+</head>
+
+<body>
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="wrap">
+      <a class="brand" href="{{ base_url }}/">
+        <div class="logo" aria-hidden="true"></div>
+        <span>{{ site_name or 'Spec Index' }}</span>
+      </a>
+      <nav class="nav">
+        <a href="{{ base_url }}/{{ section }}/">Cartridges</a>
+        <!-- Later: add Chargers, Filters, etc. -->
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="wrap">
+      <div class="breadcrumbs">
+        {% if breadcrumbs %}{% for bc in breadcrumbs %}<a href="{{ bc.url }}">{{ bc.name }}</a>{% if not loop.last %} › {% endif %}{% endfor %}{% endif %}
+      </div>
+      <h1>{{ product_name }}</h1>
+      <div class="sub">Model/SKU: {{ model_number }}{% if brand %} • Brand: {{ brand }}{% endif %}</div>
+      <nav class="jumplinks">
+        <a href="#specs">Specs</a>
+        {% if compatible_models %}<a href="#compat">Compatible Printers</a>{% endif %}
+        {% if faqs %}<a href="#faqs">FAQs</a>{% endif %}
+        <a href="#buy">Buy</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="container">
+    <!-- AD: Top Leaderboard -->
+    <div class="ad slot-leader" aria-label="ad-top">
+      {% raw %}<!-- ad snippet later -->{% endraw %}Ad
+    </div>
+
+    <section class="grid">
+      <!-- LEFT COLUMN -->
+      <div class="col">
+        <div class="card">
+          <div class="qabox">
+            {% if page_yield %}<div class="pill">Yield: {{ page_yield }} pages</div>{% endif %}
+            <div class="pill">CPP: {{ cpp_display }}</div>
+            {% if compatible_models %}<div class="pill">{{ compatible_models|length }} compatible printers</div>{% endif %}
+            {% if last_updated %}<div class="pill">Updated {{ last_updated }}</div>{% endif %}
+          </div>
+          <ul class="clean" style="margin-top:12px">
+            {% if page_yield %}<li>Approx. yield: {{ page_yield }} pages</li>{% endif %}
+            <li>Cost per page: {{ cpp_display }}</li>
+            {% if compatible_models %}<li>{{ compatible_models|length }} compatible printers</li>{% endif %}
+          </ul>
+        </div>
+
+        <!-- AD: In-content 1 -->
+        <div class="ad slot-rect" aria-label="ad-incontent-1">
+          {% raw %}<!-- ad snippet later -->{% endraw %}Ad
+        </div>
+
+        <div class="section card" id="specs" style="margin-top:16px">
+          <h2>Specs</h2>
+          <table class="table">
+            <tbody>
+              <tr><th>Product</th><td>{{ product_name }}</td></tr>
+              {% if model_number %}<tr><th>Model/SKU</th><td>{{ model_number }}</td></tr>{% endif %}
+              {% if brand %}<tr><th>Brand</th><td>{{ brand }}</td></tr>{% endif %}
+              {% if page_yield %}<tr><th>Page yield</th><td>{{ page_yield }} pages</td></tr>{% endif %}
+              {% if price %}<tr><th>Typical price</th><td>{{ price_currency or 'USD' }} ${{ "%.2f"|format(price|float) }}</td></tr>{% endif %}
+              <tr><th>Cost per page</th><td>{{ cpp_display }}</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        {% if compatible_models %}
+        <div class="section card" id="compat" style="margin-top:16px">
+          <h2>Compatible Printers</h2>
+          <div class="chips">
+            {% for m in compatible_models %}<span class="chip">{{ m }}</span>{% endfor %}
+          </div>
+        </div>
+        {% endif %}
+
+        {% if faqs %}
+        <div class="section card" id="faqs" style="margin-top:16px">
+          <h2>FAQs</h2>
+          <ul class="clean">
+            {% for qa in faqs %}
+              <li><strong>{{ qa.q }}</strong><br/>{{ qa.a }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        <!-- AD: In-content 2 -->
+        <div class="ad slot-rect" aria-label="ad-incontent-2" style="margin-top:16px">
+          {% raw %}<!-- ad snippet later -->{% endraw %}Ad
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN (BUY BOX) -->
+      <aside class="sticky" id="buy">
+        <div class="card buybox">
+          <h2>Where to Buy</h2>
+
+          {% set has_offers = (affiliate_offers is defined) and ((affiliate_offers|length) > 0) %}
+          {% if has_offers %}
+            <ul class="clean" style="margin:0; list-style: none; padding-left:0">
+              {% for offer in affiliate_offers %}
+                <li style="margin-bottom:10px">
+                  <a class="btn" href="{{ offer.url }}" rel="nofollow sponsored noopener" target="_blank">
+                    {% set has_price = (offer.price is defined) and (offer.price not in (None, '', 0)) %}
+                    Buy at {{ offer.merchant or 'Online' }}{% if has_price %} — {{ offer.currency or price_currency or 'USD' }} {{ "%.2f"|format(offer.price|float) }}{% else %} — Check price{% endif %}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% elif affiliate_url %}
+            <a class="btn" href="{{ affiliate_url }}" rel="nofollow sponsored noopener" target="_blank">Buy Now</a>
+          {% else %}
+            <p class="muted">Buying links will appear here.</p>
+          {% endif %}
+
+          <p class="disclosure">As an Amazon Associate I earn from qualifying purchases. We may earn commissions when you buy through our links, at no extra cost to you.</p>
+        </div>
+
+        <!-- AD: Sidebar sticky -->
+        <div class="ad slot-sidebar" style="margin-top:12px" aria-label="ad-sidebar">
+          {% raw %}<!-- ad snippet later -->{% endraw %}Ad
+        </div>
+      </aside>
+    </section>
+
+    <!-- Bottom ad -->
+    <div class="ad slot-leader" style="margin-top:18px" aria-label="ad-bottom">
+      {% raw %}<!-- ad snippet later -->{% endraw %}Ad
+    </div>
+
+    <footer>
+      <div>Last updated: {{ last_updated }}</div>
+      <div>Content is for compatibility/info only. Yields follow ISO/IEC guidance; real-world results vary.</div>
+    </footer>
+  </div>
+
+  <!-- Mobile sticky CTA -->
+  {% if affiliate_url or (affiliate_offers and (affiliate_offers|length)>0) %}
+  <div class="m-cta">
+    <a class="btn" href="#buy" style="padding:10px 14px">Buy</a>
+    {% if price %}<span class="price">{{ price_currency or 'USD' }} {{ "%.2f"|format(price|float) }}</span>{% endif %}
+    <span class="muted">CPP {{ cpp_display }}</span>
+  </div>
+  {% endif %}
+</body>
+</html>
