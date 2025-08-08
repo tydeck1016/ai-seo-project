@@ -1,0 +1,104 @@
+product_name,model_number,price,page_yield,compatible_models,affiliate_url
+HP 63XL Black Ink,F6U64AN,42.99,480,"HP ENVY 4520; HP DeskJet 2130; HP OfficeJet 4650",https://www.amazon.com/dp/B00WJDWGA8
+HP 950XL Black Ink,CN045AN,36.99,2000,"HP OfficeJet Pro 8600; HP 8100",https://example.com/hp950xl
+HP 962XL Black Ink,3JA03AN,47.99,2000,"HP OfficeJet Pro 9015; HP 9025",https://example.com/hp962xl
+HP 63 Black Ink Cartridge,F6U62AN,,190,HP ENVY 4520; HP DeskJet 2130; HP DeskJet 3630; HP OfficeJet 4650,https://www.amazon.com/s?k=F6U62AN&tag=easyproduc07b-20
+HP 63 Tri-Color Ink Cartridge,F6U61AN,,165,HP ENVY 4520; HP DeskJet 2130; HP DeskJet 3630; HP OfficeJet 4650,https://www.amazon.com/s?k=F6U61AN&tag=easyproduc07b-20
+HP 63XL Black Ink Cartridge,F6U64AN,,480,HP ENVY 4520; HP DeskJet 2130; HP DeskJet 3630; HP OfficeJet 4650,https://www.amazon.com/s?k=F6U64AN&tag=easyproduc07b-20
+HP 63XL Tri-Color Ink Cartridge,F6U63AN,,330,HP ENVY 4520; HP DeskJet 2130; HP DeskJet 3630; HP OfficeJet 4650,https://www.amazon.com/s?k=F6U63AN&tag=easyproduc07b-20
+HP 64 Black Ink Cartridge,N9J90AN,,200,HP ENVY Photo 6255; HP ENVY Photo 7155; HP ENVY Photo 7855; HP ENVY Inspire 7255e,https://www.amazon.com/s?k=N9J90AN&tag=easyproduc07b-20
+HP 64 Tri-Color Ink Cartridge,N9J89AN,,165,HP ENVY Photo 6255; HP ENVY Photo 7155; HP ENVY Photo 7855; HP ENVY Inspire 7255e,https://www.amazon.com/s?k=N9J89AN&tag=easyproduc07b-20
+HP 64XL Black Ink Cartridge,N9J92AN,,600,HP ENVY Photo 6255; HP ENVY Photo 7155; HP ENVY Photo 7855; HP ENVY Inspire 7255e,https://www.amazon.com/s?k=N9J92AN&tag=easyproduc07b-20
+HP 64XL Tri-Color Ink Cartridge,N9J91AN,,415,HP ENVY Photo 6255; HP ENVY Photo 7155; HP ENVY Photo 7855; HP ENVY Inspire 7255e,https://www.amazon.com/s?k=N9J91AN&tag=easyproduc07b-20
+HP 67 Black Ink Cartridge,3YM56AN,,120,HP DeskJet 1255; HP DeskJet 2700; HP DeskJet 4100; HP ENVY 6055e; HP ENVY 6455e,https://www.amazon.com/s?k=3YM56AN&tag=easyproduc07b-20
+HP 67 Tri-Color Ink Cartridge,3YM55AN,,100,HP DeskJet 1255; HP DeskJet 2700; HP DeskJet 4100; HP ENVY 6055e; HP ENVY 6455e,https://www.amazon.com/s?k=3YM55AN&tag=easyproduc07b-20
+HP 67XL Black Ink Cartridge,3YM57AN,,240,HP DeskJet 1255; HP DeskJet 2700; HP DeskJet 4100; HP ENVY 6055e; HP ENVY 6455e,https://www.amazon.com/s?k=3YM57AN&tag=easyproduc07b-20
+HP 67XL Tri-Color Ink Cartridge,3YM58AN,,200,HP DeskJet 1255; HP DeskJet 2700; HP DeskJet 4100; HP ENVY 6055e; HP ENVY 6455e,https://www.amazon.com/s?k=3YM58AN&tag=easyproduc07b-20
+HP 65 Black Ink Cartridge,N9K02AN,,120,HP DeskJet 2622; HP DeskJet 3755; HP DeskJet 2600; HP ENVY 5030,https://www.amazon.com/s?k=N9K02AN&tag=easyproduc07b-20
+HP 65 Tri-Color Ink Cartridge,N9K01AN,,100,HP DeskJet 2622; HP DeskJet 3755; HP DeskJet 2600; HP ENVY 5030,https://www.amazon.com/s?k=N9K01AN&tag=easyproduc07b-20
+HP 65XL Black Ink Cartridge,N9K04AN,,300,HP DeskJet 2622; HP DeskJet 3755; HP DeskJet 2600; HP ENVY 5030,https://www.amazon.com/s?k=N9K04AN&tag=easyproduc07b-20
+HP 65XL Tri-Color Ink Cartridge,N9K03AN,,300,HP DeskJet 2622; HP DeskJet 3755; HP DeskJet 2600; HP ENVY 5030,https://www.amazon.com/s?k=N9K03AN&tag=easyproduc07b-20
+HP 62 Black Ink Cartridge,C2P04AN,,200,HP ENVY 5540; HP ENVY 5640; HP ENVY 5660; HP OfficeJet 5740; HP OfficeJet 8040,https://www.amazon.com/s?k=C2P04AN&tag=easyproduc07b-20
+HP 62 Tri-Color Ink Cartridge,C2P06AN,,165,HP ENVY 5540; HP ENVY 5640; HP ENVY 5660; HP OfficeJet 5740; HP OfficeJet 8040,https://www.amazon.com/s?k=C2P06AN&tag=easyproduc07b-20
+HP 62XL Black Ink Cartridge,C2P07AN,,600,HP ENVY 5540; HP ENVY 5640; HP ENVY 5660; HP OfficeJet 5740; HP OfficeJet 8040,https://www.amazon.com/s?k=C2P07AN&tag=easyproduc07b-20
+HP 62XL Tri-Color Ink Cartridge,C2P05AN,,415,HP ENVY 5540; HP ENVY 5640; HP ENVY 5660; HP OfficeJet 5740; HP OfficeJet 8040,https://www.amazon.com/s?k=C2P05AN&tag=easyproduc07b-20
+HP 902 Black Ink Cartridge,T6M14AN,,300,HP OfficeJet 6950; HP OfficeJet 6954; HP OfficeJet 6962; HP OfficeJet Pro 6968; HP OfficeJet Pro 6978,https://www.amazon.com/s?k=T6M14AN&tag=easyproduc07b-20
+HP 902 Cyan Ink Cartridge,T6M02AN,,315,HP OfficeJet 6950; HP OfficeJet 6954; HP OfficeJet 6962; HP OfficeJet Pro 6968; HP OfficeJet Pro 6978,https://www.amazon.com/s?k=T6M02AN&tag=easyproduc07b-20
+HP 902 Magenta Ink Cartridge,T6M06AN,,315,HP OfficeJet 6950; HP OfficeJet 6954; HP OfficeJet 6962; HP OfficeJet Pro 6968; HP OfficeJet Pro 6978,https://www.amazon.com/s?k=T6M06AN&tag=easyproduc07b-20
+HP 902 Yellow Ink Cartridge,T6M10AN,,315,HP OfficeJet 6950; HP OfficeJet 6954; HP OfficeJet 6962; HP OfficeJet Pro 6968; HP OfficeJet Pro 6978,https://www.amazon.com/s?k=T6M10AN&tag=easyproduc07b-20
+HP 902XL Black Ink Cartridge,T6M14AN,,825,HP OfficeJet 6950; HP OfficeJet 6954; HP OfficeJet 6962; HP OfficeJet Pro 6968; HP OfficeJet Pro 6978,https://www.amazon.com/s?k=T6M14AN&tag=easyproduc07b-20
+HP 902XL Cyan Ink Cartridge,T6M03AN,,825,HP OfficeJet 6950; HP OfficeJet 6954; HP OfficeJet 6962; HP OfficeJet Pro 6968; HP OfficeJet Pro 6978,https://www.amazon.com/s?k=T6M03AN&tag=easyproduc07b-20
+HP 902XL Magenta Ink Cartridge,T6M07AN,,825,HP OfficeJet 6950; HP OfficeJet 6954; HP OfficeJet 6962; HP OfficeJet Pro 6968; HP OfficeJet Pro 6978,https://www.amazon.com/s?k=T6M07AN&tag=easyproduc07b-20
+HP 902XL Yellow Ink Cartridge,T6M11AN,,825,HP OfficeJet 6950; HP OfficeJet 6954; HP OfficeJet 6962; HP OfficeJet Pro 6968; HP OfficeJet Pro 6978,https://www.amazon.com/s?k=T6M11AN&tag=easyproduc07b-20
+HP 910 Black Ink Cartridge,3YL80AN,,300,HP OfficeJet Pro 8025; HP OfficeJet Pro 8035; HP OfficeJet 8028; HP OfficeJet Pro 8022; HP OfficeJet Pro 8025e,https://www.amazon.com/s?k=3YL80AN&tag=easyproduc07b-20
+HP 910 Cyan Ink Cartridge,3YL78AN,,315,HP OfficeJet Pro 8025; HP OfficeJet Pro 8035; HP OfficeJet 8028; HP OfficeJet Pro 8022; HP OfficeJet Pro 8025e,https://www.amazon.com/s?k=3YL78AN&tag=easyproduc07b-20
+HP 910 Magenta Ink Cartridge,3YL77AN,,315,HP OfficeJet Pro 8025; HP OfficeJet Pro 8035; HP OfficeJet 8028; HP OfficeJet Pro 8022; HP OfficeJet Pro 8025e,https://www.amazon.com/s?k=3YL77AN&tag=easyproduc07b-20
+HP 910 Yellow Ink Cartridge,3YL79AN,,315,HP OfficeJet Pro 8025; HP OfficeJet Pro 8035; HP OfficeJet 8028; HP OfficeJet Pro 8022; HP OfficeJet Pro 8025e,https://www.amazon.com/s?k=3YL79AN&tag=easyproduc07b-20
+HP 910XL Black Ink Cartridge,3YL84AN,,825,HP OfficeJet Pro 8025; HP OfficeJet Pro 8035; HP OfficeJet 8028; HP OfficeJet Pro 8022; HP OfficeJet Pro 8025e,https://www.amazon.com/s?k=3YL84AN&tag=easyproduc07b-20
+HP 910XL Cyan Ink Cartridge,3YL81AN,,825,HP OfficeJet Pro 8025; HP OfficeJet Pro 8035; HP OfficeJet 8028; HP OfficeJet Pro 8022; HP OfficeJet Pro 8025e,https://www.amazon.com/s?k=3YL81AN&tag=easyproduc07b-20
+HP 910XL Magenta Ink Cartridge,3YL82AN,,825,HP OfficeJet Pro 8025; HP OfficeJet Pro 8035; HP OfficeJet 8028; HP OfficeJet Pro 8022; HP OfficeJet Pro 8025e,https://www.amazon.com/s?k=3YL82AN&tag=easyproduc07b-20
+HP 910XL Yellow Ink Cartridge,3YL83AN,,825,HP OfficeJet Pro 8025; HP OfficeJet Pro 8035; HP OfficeJet 8028; HP OfficeJet Pro 8022; HP OfficeJet Pro 8025e,https://www.amazon.com/s?k=3YL83AN&tag=easyproduc07b-20
+HP 952 Black Ink Cartridge,F6U15AN,,1000,HP OfficeJet Pro 7740; HP OfficeJet Pro 8210; HP OfficeJet Pro 8710; HP OfficeJet Pro 8720; HP OfficeJet Pro 8740,https://www.amazon.com/s?k=F6U15AN&tag=easyproduc07b-20
+HP 952 Cyan Ink Cartridge,F6U12AN,,700,HP OfficeJet Pro 7740; HP OfficeJet Pro 8210; HP OfficeJet Pro 8710; HP OfficeJet Pro 8720; HP OfficeJet Pro 8740,https://www.amazon.com/s?k=F6U12AN&tag=easyproduc07b-20
+HP 952 Magenta Ink Cartridge,F6U13AN,,700,HP OfficeJet Pro 7740; HP OfficeJet Pro 8210; HP OfficeJet Pro 8710; HP OfficeJet Pro 8720; HP OfficeJet Pro 8740,https://www.amazon.com/s?k=F6U13AN&tag=easyproduc07b-20
+HP 952 Yellow Ink Cartridge,F6U14AN,,700,HP OfficeJet Pro 7740; HP OfficeJet Pro 8210; HP OfficeJet Pro 8710; HP OfficeJet Pro 8720; HP OfficeJet Pro 8740,https://www.amazon.com/s?k=F6U14AN&tag=easyproduc07b-20
+HP 952XL Black Ink Cartridge,L0S70AN,,2000,HP OfficeJet Pro 7740; HP OfficeJet Pro 8210; HP OfficeJet Pro 8710; HP OfficeJet Pro 8720; HP OfficeJet Pro 8740,https://www.amazon.com/s?k=L0S70AN&tag=easyproduc07b-20
+HP 952XL Cyan Ink Cartridge,L0S61AN,,1600,HP OfficeJet Pro 7740; HP OfficeJet Pro 8210; HP OfficeJet Pro 8710; HP OfficeJet Pro 8720; HP OfficeJet Pro 8740,https://www.amazon.com/s?k=L0S61AN&tag=easyproduc07b-20
+HP 952XL Magenta Ink Cartridge,L0S62AN,,1600,HP OfficeJet Pro 7740; HP OfficeJet Pro 8210; HP OfficeJet Pro 8710; HP OfficeJet Pro 8720; HP OfficeJet Pro 8740,https://www.amazon.com/s?k=L0S62AN&tag=easyproduc07b-20
+HP 952XL Yellow Ink Cartridge,L0S63AN,,1600,HP OfficeJet Pro 7740; HP OfficeJet Pro 8210; HP OfficeJet Pro 8710; HP OfficeJet Pro 8720; HP OfficeJet Pro 8740,https://www.amazon.com/s?k=L0S63AN&tag=easyproduc07b-20
+HP 950 Black Ink Cartridge,CN049AN,,1000,HP OfficeJet Pro 8100; HP OfficeJet Pro 8600; HP OfficeJet Pro 8610; HP OfficeJet Pro 8620; HP OfficeJet Pro 8630,https://www.amazon.com/s?k=CN049AN&tag=easyproduc07b-20
+HP 950XL Black Ink Cartridge,CN045AN,,2300,HP OfficeJet Pro 8100; HP OfficeJet Pro 8600; HP OfficeJet Pro 8610; HP OfficeJet Pro 8620; HP OfficeJet Pro 8630,https://www.amazon.com/s?k=CN045AN&tag=easyproduc07b-20
+HP 951 Cyan Ink Cartridge,CN046AN,,700,HP OfficeJet Pro 8100; HP OfficeJet Pro 8600; HP OfficeJet Pro 8610; HP OfficeJet Pro 8620; HP OfficeJet Pro 8630,https://www.amazon.com/s?k=CN046AN&tag=easyproduc07b-20
+HP 951 Magenta Ink Cartridge,CN047AN,,700,HP OfficeJet Pro 8100; HP OfficeJet Pro 8600; HP OfficeJet Pro 8610; HP OfficeJet Pro 8620; HP OfficeJet Pro 8630,https://www.amazon.com/s?k=CN047AN&tag=easyproduc07b-20
+HP 951 Yellow Ink Cartridge,CN048AN,,700,HP OfficeJet Pro 8100; HP OfficeJet Pro 8600; HP OfficeJet Pro 8610; HP OfficeJet Pro 8620; HP OfficeJet Pro 8630,https://www.amazon.com/s?k=CN048AN&tag=easyproduc07b-20
+HP 951XL Cyan Ink Cartridge,CN046AN,,1500,HP OfficeJet Pro 8100; HP OfficeJet Pro 8600; HP OfficeJet Pro 8610; HP OfficeJet Pro 8620; HP OfficeJet Pro 8630,https://www.amazon.com/s?k=CN046AN&tag=easyproduc07b-20
+HP 951XL Magenta Ink Cartridge,CN047AN,,1500,HP OfficeJet Pro 8100; HP OfficeJet Pro 8600; HP OfficeJet Pro 8610; HP OfficeJet Pro 8620; HP OfficeJet Pro 8630,https://www.amazon.com/s?k=CN047AN&tag=easyproduc07b-20
+Canon PG-245 Black Ink Cartridge,PG-245,,180,Canon PIXMA MG2522; Canon PIXMA MG2920; Canon PIXMA MX490; Canon PIXMA TS302; Canon PIXMA TR4520,https://www.amazon.com/s?k=PG-245&tag=easyproduc07b-20
+Canon PG-245XL Black Ink Cartridge,PG-245XL,,300,Canon PIXMA MG2522; Canon PIXMA MG2920; Canon PIXMA MX490; Canon PIXMA TS302; Canon PIXMA TR4520,https://www.amazon.com/s?k=PG-245XL&tag=easyproduc07b-20
+Canon CL-246 Tri-Color Ink Cartridge,CL-246,,180,Canon PIXMA MG2522; Canon PIXMA MG2920; Canon PIXMA MX490; Canon PIXMA TS302; Canon PIXMA TR4520,https://www.amazon.com/s?k=CL-246&tag=easyproduc07b-20
+Canon CL-246XL Tri-Color Ink Cartridge,CL-246XL,,300,Canon PIXMA MG2522; Canon PIXMA MG2920; Canon PIXMA MX490; Canon PIXMA TS302; Canon PIXMA TR4520,https://www.amazon.com/s?k=CL-246XL&tag=easyproduc07b-20
+Epson 252 Black Ink Cartridge,T252120,,350,Epson WorkForce WF-3620; Epson WorkForce WF-3640; Epson WorkForce WF-7110; Epson WorkForce WF-7210; Epson WorkForce WF-7720,https://www.amazon.com/s?k=T252120&tag=easyproduc07b-20
+Epson 252 Cyan Ink Cartridge,T252220,,300,Epson WorkForce WF-3620; Epson WorkForce WF-3640; Epson WorkForce WF-7110; Epson WorkForce WF-7210; Epson WorkForce WF-7720,https://www.amazon.com/s?k=T252220&tag=easyproduc07b-20
+Epson 252 Magenta Ink Cartridge,T252320,,300,Epson WorkForce WF-3620; Epson WorkForce WF-3640; Epson WorkForce WF-7110; Epson WorkForce WF-7210; Epson WorkForce WF-7720,https://www.amazon.com/s?k=T252320&tag=easyproduc07b-20
+Epson 252 Yellow Ink Cartridge,T252420,,300,Epson WorkForce WF-3620; Epson WorkForce WF-3640; Epson WorkForce WF-7110; Epson WorkForce WF-7210; Epson WorkForce WF-7720,https://www.amazon.com/s?k=T252420&tag=easyproduc07b-20
+Epson 252XL Black Ink Cartridge,T252XL120,,1100,Epson WorkForce WF-3620; Epson WorkForce WF-3640; Epson WorkForce WF-7110; Epson WorkForce WF-7210; Epson WorkForce WF-7720,https://www.amazon.com/s?k=T252XL120&tag=easyproduc07b-20
+Epson 252XL Cyan Ink Cartridge,T252XL220,,1100,Epson WorkForce WF-3620; Epson WorkForce WF-3640; Epson WorkForce WF-7110; Epson WorkForce WF-7210; Epson WorkForce WF-7720,https://www.amazon.com/s?k=T252XL220&tag=easyproduc07b-20
+Epson 252XL Magenta Ink Cartridge,T252XL320,,1100,Epson WorkForce WF-3620; Epson WorkForce WF-3640; Epson WorkForce WF-7110; Epson WorkForce WF-7210; Epson WorkForce WF-7720,https://www.amazon.com/s?k=T252XL320&tag=easyproduc07b-20
+Epson 252XL Yellow Ink Cartridge,T252XL420,,1100,Epson WorkForce WF-3620; Epson WorkForce WF-3640; Epson WorkForce WF-7110; Epson WorkForce WF-7210; Epson WorkForce WF-7720,https://www.amazon.com/s?k=T252XL420&tag=easyproduc07b-20
+Epson 220 Black Ink Cartridge,T220120,,175,Epson XP-420; Epson XP-320; Epson WF-2630; Epson WF-2650; Epson WF-2660,https://www.amazon.com/s?k=T220120&tag=easyproduc07b-20
+Epson 220 Cyan Ink Cartridge,T220220,,165,Epson XP-420; Epson XP-320; Epson WF-2630; Epson WF-2650; Epson WF-2660,https://www.amazon.com/s?k=T220220&tag=easyproduc07b-20
+Epson 220 Magenta Ink Cartridge,T220320,,165,Epson XP-420; Epson XP-320; Epson WF-2630; Epson WF-2650; Epson WF-2660,https://www.amazon.com/s?k=T220320&tag=easyproduc07b-20
+Epson 220 Yellow Ink Cartridge,T220420,,165,Epson XP-420; Epson XP-320; Epson WF-2630; Epson WF-2650; Epson WF-2660,https://www.amazon.com/s?k=T220420&tag=easyproduc07b-20
+Epson 220XL Black Ink Cartridge,T220XL120,,500,Epson XP-420; Epson XP-320; Epson WF-2630; Epson WF-2650; Epson WF-2660,https://www.amazon.com/s?k=T220XL120&tag=easyproduc07b-20
+Epson 220XL Cyan Ink Cartridge,T220XL220,,450,Epson XP-420; Epson XP-320; Epson WF-2630; Epson WF-2650; Epson WF-2660,https://www.amazon.com/s?k=T220XL220&tag=easyproduc07b-20
+Epson 220XL Magenta Ink Cartridge,T220XL320,,450,Epson XP-420; Epson XP-320; Epson WF-2630; Epson WF-2650; Epson WF-2660,https://www.amazon.com/s?k=T220XL320&tag=easyproduc07b-20
+Epson 220XL Yellow Ink Cartridge,T220XL420,,450,Epson XP-420; Epson XP-320; Epson WF-2630; Epson WF-2650; Epson WF-2660,https://www.amazon.com/s?k=T220XL420&tag=easyproduc07b-20
+Epson 288 Black Ink Cartridge,T288120,,175,Epson XP-330; Epson XP-340; Epson XP-430; Epson XP-440; Epson XP-446,https://www.amazon.com/s?k=T288120&tag=easyproduc07b-20
+Epson 288 Cyan Ink Cartridge,T288220,,165,Epson XP-330; Epson XP-340; Epson XP-430; Epson XP-440; Epson XP-446,https://www.amazon.com/s?k=T288220&tag=easyproduc07b-20
+Epson 288 Magenta Ink Cartridge,T288320,,165,Epson XP-330; Epson XP-340; Epson XP-430; Epson XP-440; Epson XP-446,https://www.amazon.com/s?k=T288320&tag=easyproduc07b-20
+Epson 288 Yellow Ink Cartridge,T288420,,165,Epson XP-330; Epson XP-340; Epson XP-430; Epson XP-440; Epson XP-446,https://www.amazon.com/s?k=T288420&tag=easyproduc07b-20
+Epson 288XL Black Ink Cartridge,T288XL120,,500,Epson XP-330; Epson XP-340; Epson XP-430; Epson XP-440; Epson XP-446,https://www.amazon.com/s?k=T288XL120&tag=easyproduc07b-20
+Epson 288XL Cyan Ink Cartridge,T288XL220,,450,Epson XP-330; Epson XP-340; Epson XP-430; Epson XP-440; Epson XP-446,https://www.amazon.com/s?k=T288XL220&tag=easyproduc07b-20
+Epson 288XL Magenta Ink Cartridge,T288XL320,,450,Epson XP-330; Epson XP-340; Epson XP-430; Epson XP-440; Epson XP-446,https://www.amazon.com/s?k=T288XL320&tag=easyproduc07b-20
+Epson 288XL Yellow Ink Cartridge,T288XL420,,450,Epson XP-330; Epson XP-340; Epson XP-430; Epson XP-440; Epson XP-446,https://www.amazon.com/s?k=T288XL420&tag=easyproduc07b-20
+Epson 812 Black Ink Cartridge,T812120,,350,Epson EC-C7000; Epson WF-7310; Epson WF-7820; Epson WF-7840,https://www.amazon.com/s?k=T812120&tag=easyproduc07b-20
+Epson 812 Cyan Ink Cartridge,T812220,,300,Epson EC-C7000; Epson WF-7310; Epson WF-7820; Epson WF-7840,https://www.amazon.com/s?k=T812220&tag=easyproduc07b-20
+Epson 812 Magenta Ink Cartridge,T812320,,300,Epson EC-C7000; Epson WF-7310; Epson WF-7820; Epson WF-7840,https://www.amazon.com/s?k=T812320&tag=easyproduc07b-20
+Epson 812 Yellow Ink Cartridge,T812420,,300,Epson EC-C7000; Epson WF-7310; Epson WF-7820; Epson WF-7840,https://www.amazon.com/s?k=T812420&tag=easyproduc07b-20
+Epson 812XL Black Ink Cartridge,T812XL120,,1100,Epson EC-C7000; Epson WF-7310; Epson WF-7820; Epson WF-7840,https://www.amazon.com/s?k=T812XL120&tag=easyproduc07b-20
+Epson 812XL Cyan Ink Cartridge,T812XL220,,1100,Epson EC-C7000; Epson WF-7310; Epson WF-7820; Epson WF-7840,https://www.amazon.com/s?k=T812XL220&tag=easyproduc07b-20
+Epson 812XL Magenta Ink Cartridge,T812XL320,,1100,Epson EC-C7000; Epson WF-7310; Epson WF-7820; Epson WF-7840,https://www.amazon.com/s?k=T812XL320&tag=easyproduc07b-20
+Epson 812XL Yellow Ink Cartridge,T812XL420,,1100,Epson EC-C7000; Epson WF-7310; Epson WF-7820; Epson WF-7840,https://www.amazon.com/s?k=T812XL420&tag=easyproduc07b-20
+Brother TN660 Black Toner Cartridge,TN660,,2600,Brother HL-L2340DW; Brother HL-L2300D; Brother HL-L2360DW; Brother MFC-L2700DW; Brother MFC-L2740DW,https://www.amazon.com/s?k=TN660&tag=easyproduc07b-20
+Brother TN760 Black Toner Cartridge,TN760,,3000,Brother DCP-L2550DW; Brother HL-L2325DW; Brother HL-L2350DW; Brother HL-L2370DW; Brother HL-L2390DW,https://www.amazon.com/s?k=TN760&tag=easyproduc07b-20
+Brother TN223 Black Toner Cartridge,TN223BK,,1400,Brother HL-L3210CW; Brother HL-L3230CDW; Brother HL-L3270CDW; Brother HL-L3290CDW; Brother MFC-L3710CW,https://www.amazon.com/s?k=TN223BK&tag=easyproduc07b-20
+Brother TN223 Cyan Toner Cartridge,TN223C,,1300,Brother HL-L3210CW; Brother HL-L3230CDW; Brother HL-L3270CDW; Brother HL-L3290CDW; Brother MFC-L3710CW,https://www.amazon.com/s?k=TN223C&tag=easyproduc07b-20
+Brother TN223 Magenta Toner Cartridge,TN223M,,1300,Brother HL-L3210CW; Brother HL-L3230CDW; Brother HL-L3270CDW; Brother HL-L3290CDW; Brother MFC-L3710CW,https://www.amazon.com/s?k=TN223M&tag=easyproduc07b-20
+Brother TN223 Yellow Toner Cartridge,TN223Y,,1300,Brother HL-L3210CW; Brother HL-L3230CDW; Brother HL-L3270CDW; Brother HL-L3290CDW; Brother MFC-L3710CW,https://www.amazon.com/s?k=TN223Y&tag=easyproduc07b-20
+Brother TN227 Black Toner Cartridge,TN227BK,,3000,Brother HL-L3210CW; Brother HL-L3230CDW; Brother HL-L3270CDW; Brother HL-L3290CDW; Brother MFC-L3750CDW,https://www.amazon.com/s?k=TN227BK&tag=easyproduc07b-20
+Brother TN227 Cyan Toner Cartridge,TN227C,,2300,Brother HL-L3210CW; Brother HL-L3230CDW; Brother HL-L3270CDW; Brother HL-L3290CDW; Brother MFC-L3750CDW,https://www.amazon.com/s?k=TN227C&tag=easyproduc07b-20
+Brother TN227 Magenta Toner Cartridge,TN227M,,2300,Brother HL-L3210CW; Brother HL-L3230CDW; Brother HL-L3270CDW; Brother HL-L3290CDW; Brother MFC-L3750CDW,https://www.amazon.com/s?k=TN227M&tag=easyproduc07b-20
+Brother TN227 Yellow Toner Cartridge,TN227Y,,2300,Brother HL-L3210CW; Brother HL-L3230CDW; Brother HL-L3270CDW; Brother HL-L3290CDW; Brother MFC-L3750CDW,https://www.amazon.com/s?k=TN227Y&tag=easyproduc07b-20
+Brother LC203 Black Ink Cartridge,LC203BK,,550,Brother MFC-J4320DW; Brother MFC-J4420DW; Brother MFC-J4620DW; Brother MFC-J5520DW; Brother MFC-J5720DW,https://www.amazon.com/s?k=LC203BK&tag=easyproduc07b-20
+Brother LC203 Cyan Ink Cartridge,LC203C,,550,Brother MFC-J4320DW; Brother MFC-J4420DW; Brother MFC-J4620DW; Brother MFC-J5520DW; Brother MFC-J5720DW,https://www.amazon.com/s?k=LC203C&tag=easyproduc07b-20
+Brother LC203 Magenta Ink Cartridge,LC203M,,550,Brother MFC-J4320DW; Brother MFC-J4420DW; Brother MFC-J4620DW; Brother MFC-J5520DW; Brother MFC-J5720DW,https://www.amazon.com/s?k=LC203M&tag=easyproduc07b-20
