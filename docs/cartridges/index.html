@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cartridges – PartLookup</title>
+  <link rel="canonical" href="https://tydeck1016.github.io/ai-seo-project/cartridges/" />
+  <style>
+    :root{
+      --bg:#0b1020; --surface:#0f1428; --card:#ffffff; --ink:#0b1220; --muted:#687089;
+      --b:#e7e8ef; --accent:#3b82f6; --accent-2:#1d4ed8; --chip:#f2f5ff;
+      --max:1200px; --pad:18px; --radius:16px; --shadow:0 8px 30px rgba(10,20,30,.08);
+    }
+    html[data-theme="dark"] :root, :root[data-theme="dark"]{ 
+      --card:#0f172a; --ink:#e5e7ef; --b:#1f2937; --chip:#111827;
+    }
+    @media (prefers-color-scheme: dark) {
+      html[data-theme="auto"] :root{ --card:#0f172a; --ink:#e5e7ef; --b:#1f2937; --chip:#111827; }
+      html[data-theme="auto"] body{ background:#0b1020; }
+    }
+    *{box-sizing:border-box} html,body{margin:0}
+    body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;
+         line-height:1.6; background:var(--bg); color:var(--ink)}
+
+    .topbar{background:linear-gradient(180deg, var(--surface), rgba(15,23,42,.6)); color:#fff}
+    .topbar .wrap{max-width:var(--max); margin:0 auto; padding:14px var(--pad);
+                   display:flex; align-items:center; gap:14px; justify-content:space-between}
+    .brand{display:flex; align-items:center; gap:10px; text-decoration:none; color:#fff; font-weight:800}
+    .logo{width:28px;height:28px;border-radius:10px;background:linear-gradient(135deg,#60a5fa,#a78bfa);
+           box-shadow:inset 0 0 0 2px rgba(255,255,255,.2)}
+    .nav a{color:#cbd5e1;text-decoration:none;font-weight:600;margin-left:14px}
+    .nav a:hover{color:#fff}
+    .theme-btn{appearance:none;border:1px solid rgba(255,255,255,.25);background:transparent;color:#fff;
+                padding:8px 10px;border-radius:10px;cursor:pointer;font-weight:700}
+
+    .hero{background:
+      radial-gradient(1200px 400px at 20% -10%, rgba(59,130,246,.35), transparent 60%),
+      radial-gradient(900px 300px at 90% -20%, rgba(167,139,250,.28), transparent 60%),
+      linear-gradient(180deg, rgba(15,23,42,.9), rgba(15,23,42,.66)); color:#fff; border-bottom:1px solid rgba(255,255,255,.06)}
+    .hero .wrap{max-width:var(--max); margin:0 auto; padding:28px var(--pad) 34px}
+    .breadcrumbs{font-size:13px; color:#94a3b8; margin-bottom:8px}
+    .breadcrumbs a{color:inherit; text-decoration:none}
+    h1{font-size:clamp(24px,5vw,36px); margin:8px 0 0}
+
+    .wrap{max-width:var(--max); margin:0 auto; padding:32px 20px}
+    .search{max-width:520px; margin:18px 0 28px; display:flex}
+    .search input{flex:1;padding:12px 14px;border:1px solid var(--b);border-radius:12px;font-size:16px;background:var(--card);color:var(--ink)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:24px}
+    .card{border:1px solid var(--b);border-radius:16px;padding:22px 18px;text-decoration:none;color:var(--ink);
+           background:var(--card);transition:all .15s; box-shadow:var(--shadow)}
+    .card:hover{transform:translateY(-2px); box-shadow:0 10px 28px rgba(0,0,0,.10)}
+    .card h3{margin:0 0 6px;font-size:18px}
+    .card p{margin:0;color:var(--muted);font-size:14px}
+    footer{margin-top:24px;text-align:center;color:#94a3b8;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <a class="brand" href="https://tydeck1016.github.io/ai-seo-project/"><div class="logo"></div><span>PartLookup</span></a>
+      <div class="nav">
+        <a href="https://tydeck1016.github.io/ai-seo-project/cartridges/">Cartridges</a>
+        <button id="themeToggle" class="theme-btn" type="button">Toggle theme</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="wrap">
+      <div class="breadcrumbs"><a href="https://tydeck1016.github.io/ai-seo-project/">Home</a> › <a href="https://tydeck1016.github.io/ai-seo-project/cartridges/">Cartridges</a></div>
+      <h1>Cartridges</h1>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="search"><input id="itemSearch" type="search" placeholder="Search cartridges…" aria-label="Search cartridges"></div>
+    <section id="itemGrid" class="grid">
+        <a class='card' data-title='brother lc203 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/lc203bk/'>
+          <h3>Brother LC203 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='brother lc203 cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/lc203c/'>
+          <h3>Brother LC203 Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='brother lc203 magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/lc203m/'>
+          <h3>Brother LC203 Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='brother tn223 black toner cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/tn223bk/'>
+          <h3>Brother TN223 Black Toner Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='brother tn223 cyan toner cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/tn223c/'>
+          <h3>Brother TN223 Cyan Toner Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='brother tn223 magenta toner cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/tn223m/'>
+          <h3>Brother TN223 Magenta Toner Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='brother tn223 yellow toner cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/tn223y/'>
+          <h3>Brother TN223 Yellow Toner Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='brother tn227 black toner cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/tn227bk/'>
+          <h3>Brother TN227 Black Toner Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='brother tn227 cyan toner cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/tn227c/'>
+          <h3>Brother TN227 Cyan Toner Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='brother tn227 magenta toner cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/tn227m/'>
+          <h3>Brother TN227 Magenta Toner Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='brother tn227 yellow toner cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/tn227y/'>
+          <h3>Brother TN227 Yellow Toner Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='brother tn660 black toner cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/tn660/'>
+          <h3>Brother TN660 Black Toner Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='brother tn760 black toner cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/tn760/'>
+          <h3>Brother TN760 Black Toner Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='canon cl-246 tri-color ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/cl-246/'>
+          <h3>Canon CL-246 Tri-Color Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='canon cl-246xl tri-color ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/cl-246xl/'>
+          <h3>Canon CL-246XL Tri-Color Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='canon pg-245 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/pg-245/'>
+          <h3>Canon PG-245 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='canon pg-245xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/pg-245xl/'>
+          <h3>Canon PG-245XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 220 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t220120/'>
+          <h3>Epson 220 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 220 cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t220220/'>
+          <h3>Epson 220 Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 220 magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t220320/'>
+          <h3>Epson 220 Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 220 yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t220420/'>
+          <h3>Epson 220 Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 220xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t220xl120/'>
+          <h3>Epson 220XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 220xl cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t220xl220/'>
+          <h3>Epson 220XL Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 220xl magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t220xl320/'>
+          <h3>Epson 220XL Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 220xl yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t220xl420/'>
+          <h3>Epson 220XL Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 252 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t252120/'>
+          <h3>Epson 252 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 252 cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t252220/'>
+          <h3>Epson 252 Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 252 magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t252320/'>
+          <h3>Epson 252 Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 252 yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t252420/'>
+          <h3>Epson 252 Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 252xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t252xl120/'>
+          <h3>Epson 252XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 252xl cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t252xl220/'>
+          <h3>Epson 252XL Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 252xl magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t252xl320/'>
+          <h3>Epson 252XL Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 252xl yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t252xl420/'>
+          <h3>Epson 252XL Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 288 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t288120/'>
+          <h3>Epson 288 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 288 cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t288220/'>
+          <h3>Epson 288 Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 288 magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t288320/'>
+          <h3>Epson 288 Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 288 yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t288420/'>
+          <h3>Epson 288 Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 288xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t288xl120/'>
+          <h3>Epson 288XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 288xl cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t288xl220/'>
+          <h3>Epson 288XL Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 288xl magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t288xl320/'>
+          <h3>Epson 288XL Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 288xl yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t288xl420/'>
+          <h3>Epson 288XL Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 812 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t812120/'>
+          <h3>Epson 812 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 812 cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t812220/'>
+          <h3>Epson 812 Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 812 magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t812320/'>
+          <h3>Epson 812 Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 812 yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t812420/'>
+          <h3>Epson 812 Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 812xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t812xl120/'>
+          <h3>Epson 812XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 812xl cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t812xl220/'>
+          <h3>Epson 812XL Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 812xl magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t812xl320/'>
+          <h3>Epson 812XL Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='epson 812xl yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t812xl420/'>
+          <h3>Epson 812XL Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 62 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/c2p04an/'>
+          <h3>HP 62 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 62 tri-color ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/c2p06an/'>
+          <h3>HP 62 Tri-Color Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 62xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/c2p07an/'>
+          <h3>HP 62XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 62xl tri-color ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/c2p05an/'>
+          <h3>HP 62XL Tri-Color Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 63 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/f6u62an/'>
+          <h3>HP 63 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 63 tri-color ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/f6u61an/'>
+          <h3>HP 63 Tri-Color Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 63xl black ink' href='https://tydeck1016.github.io/ai-seo-project/cartridges/f6u64an/'>
+          <h3>HP 63XL Black Ink</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 63xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/f6u64an/'>
+          <h3>HP 63XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 63xl tri-color ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/f6u63an/'>
+          <h3>HP 63XL Tri-Color Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 64 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/n9j90an/'>
+          <h3>HP 64 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 64 tri-color ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/n9j89an/'>
+          <h3>HP 64 Tri-Color Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 64xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/n9j92an/'>
+          <h3>HP 64XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 64xl tri-color ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/n9j91an/'>
+          <h3>HP 64XL Tri-Color Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 65 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/n9k02an/'>
+          <h3>HP 65 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 65 tri-color ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/n9k01an/'>
+          <h3>HP 65 Tri-Color Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 65xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/n9k04an/'>
+          <h3>HP 65XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 65xl tri-color ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/n9k03an/'>
+          <h3>HP 65XL Tri-Color Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 67 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3ym56an/'>
+          <h3>HP 67 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 67 tri-color ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3ym55an/'>
+          <h3>HP 67 Tri-Color Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 67xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3ym57an/'>
+          <h3>HP 67XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 67xl tri-color ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3ym58an/'>
+          <h3>HP 67XL Tri-Color Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 902 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t6m14an/'>
+          <h3>HP 902 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 902 cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t6m02an/'>
+          <h3>HP 902 Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 902 magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t6m06an/'>
+          <h3>HP 902 Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 902 yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t6m10an/'>
+          <h3>HP 902 Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 902xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t6m14an/'>
+          <h3>HP 902XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 902xl cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t6m03an/'>
+          <h3>HP 902XL Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 902xl magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t6m07an/'>
+          <h3>HP 902XL Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 902xl yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/t6m11an/'>
+          <h3>HP 902XL Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 910 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3yl80an/'>
+          <h3>HP 910 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 910 cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3yl78an/'>
+          <h3>HP 910 Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 910 magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3yl77an/'>
+          <h3>HP 910 Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 910 yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3yl79an/'>
+          <h3>HP 910 Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 910xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3yl84an/'>
+          <h3>HP 910XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 910xl cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3yl81an/'>
+          <h3>HP 910XL Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 910xl magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3yl82an/'>
+          <h3>HP 910XL Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 910xl yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3yl83an/'>
+          <h3>HP 910XL Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 950 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/cn049an/'>
+          <h3>HP 950 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 950xl black ink' href='https://tydeck1016.github.io/ai-seo-project/cartridges/cn045an/'>
+          <h3>HP 950XL Black Ink</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 950xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/cn045an/'>
+          <h3>HP 950XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 951 cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/cn046an/'>
+          <h3>HP 951 Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 951 magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/cn047an/'>
+          <h3>HP 951 Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 951 yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/cn048an/'>
+          <h3>HP 951 Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 951xl cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/cn046an/'>
+          <h3>HP 951XL Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 951xl magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/cn047an/'>
+          <h3>HP 951XL Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 952 black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/f6u15an/'>
+          <h3>HP 952 Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 952 cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/f6u12an/'>
+          <h3>HP 952 Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 952 magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/f6u13an/'>
+          <h3>HP 952 Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 952 yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/f6u14an/'>
+          <h3>HP 952 Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 952xl black ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/l0s70an/'>
+          <h3>HP 952XL Black Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 952xl cyan ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/l0s61an/'>
+          <h3>HP 952XL Cyan Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 952xl magenta ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/l0s62an/'>
+          <h3>HP 952XL Magenta Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 952xl yellow ink cartridge' href='https://tydeck1016.github.io/ai-seo-project/cartridges/l0s63an/'>
+          <h3>HP 952XL Yellow Ink Cartridge</h3>
+          <p>Details →</p>
+        </a>
+
+        <a class='card' data-title='hp 962xl black ink' href='https://tydeck1016.github.io/ai-seo-project/cartridges/3ja03an/'>
+          <h3>HP 962XL Black Ink</h3>
+          <p>Details →</p>
+        </a></section>
+    <footer>103 items · Last updated 2025-08-08</footer>
+  </div>
+
+  <script>
+    // Live filter
+    const search = document.getElementById('itemSearch');
+    const cards  = Array.from(document.querySelectorAll('#itemGrid .card'));
+    search?.addEventListener('input', e => {
+      const v = e.target.value.trim().toLowerCase();
+      cards.forEach(c => {
+        const title = c.dataset.title || '';
+        c.style.display = title.includes(v) ? '' : 'none';
+      });
+    });
+
+    // Theme toggle (persists)
+    const root = document.documentElement;
+    const key = 'theme-pref';
+    function applyTheme(t) { root.setAttribute('data-theme', t); }
+    const saved = localStorage.getItem(key);
+    if (saved) applyTheme(saved);
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      const cur = root.getAttribute('data-theme') || 'auto';
+      const next = cur === 'dark' ? 'light' : (cur === 'light' ? 'auto' : 'dark');
+      localStorage.setItem(key, next); applyTheme(next);
+    });
+  </script>
+</body></html>
