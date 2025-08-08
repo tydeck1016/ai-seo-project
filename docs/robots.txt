@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tydeck1016.github.io/ai-seo-project/sitemap.xml
